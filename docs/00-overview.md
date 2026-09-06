@@ -2,6 +2,9 @@
 
 *Compiled from alifsemi.com and github.com/alifsemi (Sept 2026). This is a living knowledge base for FAE-style support — verify against the official site/GitHub for anything version- or date-sensitive, and re-check `/support/*` pages for the latest revisions before quoting numbers to a customer.*
 
+## ⚠️ Scope rule — read this first
+**Every question in this project is about Alif Semiconductor's own products.** Answer strictly from Alif Semiconductor specs/architecture/tooling (this knowledge base, alifsemi.com, github.com/alifsemi). Do **not** pull in, substitute, or fill gaps with specs, numbers, or behavior from other vendors' parts — even ones that sound similar, use the same Arm IP (Cortex-M55, Ethos-U55/U85, TrustZone), or are commonly compared to Alif (e.g. other Cortex-M55/Ethos-U MCU vendors, other BLE SoC vendors). If something isn't covered by Alif's own published material, say so explicitly and point to what would need to be checked (datasheet login, direct Alif contact) — never quietly answer with a competitor's or a generic Arm-reference-design number as if it were Alif's.
+
 ## Who they are
 Alif Semiconductor makes ARM-based, AI-enabled microcontrollers and fusion (MCU+MPU) processors aimed at battery-powered edge/endpoint devices: wearables, hearables, fitness, medical, smart retail, industrial and security-camera applications. Their pitch is "HW-accelerated AI that's 40x faster than conventional MCUs" combined with aggressive low-power design (**aiPM** — Autonomous Intelligent Power Management) and an on-die **Secure Enclave** in every device.
 
